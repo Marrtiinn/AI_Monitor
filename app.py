@@ -888,7 +888,7 @@ for sid, sdata in st.session_state.sessions.items():
 st.sidebar.markdown(
     """
     <div style='position: fixed; bottom: 15px; right: 15px; left: 15px; text-align: center; color: #64748b; font-size: 0.75em;'>
-        Engosoft QA Dashboard v1.1
+        Powered by Martin.
     </div>
     """,
     unsafe_allow_html=True
@@ -900,7 +900,7 @@ st.sidebar.markdown(
 
 # Main Header
 st.title("🛡️ لوحة تدقيق وتقييم جودة مكالمات المبيعات")
-st.markdown("تحليل ذكي فوري للمكالمات الصوتية والنصوص للامتثال البيعي ومعايير جودة الخدمات لشركة **إنجوسوفت (Engosoft)**.")
+st.markdown("تحليل ذكي فوري للمكالمات الصوتية ومعايير جودة الخدمات )
 
 # Checking API status
 api_key_configured = bool(st.session_state.get("api_key") or os.getenv("GEMINI_API_KEY"))
