@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 
 # 1. Page Config (Must be first Streamlit command)
 st.set_page_config(
-    page_title="منصة تقييم جودة مكالمات المبيعات | Engosoft",
+    page_title="منصة تقييم جودة مكالمات المبيعات",
     layout="wide",
     initial_sidebar_state="expanded"
 )
