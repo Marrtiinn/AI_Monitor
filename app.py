@@ -833,8 +833,8 @@ if "current_session_id" not in st.session_state:
 st.sidebar.markdown(
     """
     <div style='text-align: center; margin-bottom: 20px;'>
-        <h2 style='color: #3b82f6; margin-bottom: 5px; font-weight: 800;'>Engosoft QA 📋</h2>
-        <p style='color: #94a3b8; font-size: 0.9em;'>منصة تقييم جودة مكالمات المبيعات</p>
+        <h2 style='color: #3b82f6; margin-bottom: 5px; font-weight: 800;'>Martin QA 📋</h2>
+        <p style='color: #94a3b8; font-size: 0.9em;'>منصة تقييم جودة مكالمات </p>
     </div>
     """,
     unsafe_allow_html=True
@@ -1074,7 +1074,7 @@ else:
             # Box container for transcript
             st.markdown(
                 f"""
-                <div style="background-color: #fafafa; border-radius: 10px; padding: 15px; 
+                <div style="background-color: #000000; border-radius: 10px; padding: 15px; 
                             border: 1px solid #e2e8f0; max-height: 400px; overflow-y: auto; font-size:0.95rem; line-height: 1.7; direction:rtl; text-align:right;">
                     {report.transcription.replace('الموظف:', '<b>👤 الموظف:</b>').replace('العميل:', '<b>🗣️ العميل:</b>').replace('\n', '<br/>')}
                 </div>
