@@ -900,7 +900,7 @@ st.sidebar.markdown(
 
 # Main Header
 st.title("🛡️ لوحة تدقيق وتقييم جودة مكالمات المبيعات")
-st.markdown("تحليل ذكي فوري للمكالمات الصوتية ومعايير جودة الخدمات )
+st.markdown("تحليل ذكي فوري للمكالمات الصوتية ومعايير جودة الخدمات")
 
 # Checking API status
 api_key_configured = bool(st.session_state.get("api_key") or os.getenv("GEMINI_API_KEY"))
